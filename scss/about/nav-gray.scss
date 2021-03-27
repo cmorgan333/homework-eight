@@ -1,0 +1,31 @@
+.nav-gray {
+  max-width: 1280px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  background-color: #9e9187;
+  margin: 0 auto;
+
+  .logo {
+    width: 416px;
+    height: 55px;
+    background-image: url(../assets/images/home/occlogo2.png);
+    margin-left: 10px;
+  }
+
+  .links {
+    width: 660px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+
+    a {
+      text-decoration: none;
+      font-family: $font-one;
+      font-size: 30px;
+      color: $coffee;
+    }
+  }
+}

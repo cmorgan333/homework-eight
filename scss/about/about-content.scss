@@ -1,0 +1,63 @@
+.about-content {
+  max-width: 632px;
+  min-height: 200px;
+  margin: 0 auto;
+  //   display: block;
+
+  .meetowners {
+    max-width: 632px;
+    min-height: 539px;
+    margin-top: 80px;
+    display: block;
+
+    .owner {
+      max-width: 632px;
+      min-height: 217px;
+      margin-top: 26px;
+      display: flex;
+    }
+    .owner-pic {
+      width: 141px;
+      height: 197px;
+      margin-bottom: 68px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .shelley {
+      background-image: url(../assets/images/about/about-owner1.jpg);
+    }
+
+    .jack {
+      background-image: url(../assets/images/about/about-owner2.jpg);
+    }
+
+    .catsy {
+      background-image: url(../assets/images/about/about-catowner1.jpg);
+    }
+
+    .captain {
+      background-image: url(../assets/images/about/about-catowner2.jpg);
+    }
+
+    .owner-text {
+      width: 413px;
+      min-height: 136px;
+      margin-bottom: 20px;
+      margin-left: 33px;
+    }
+  }
+
+  h1 {
+    font-family: $font-one;
+    font-size: 30px;
+    color: $coffee;
+  }
+
+  p {
+    font-family: $font-one;
+    font-size: 20px;
+    color: $coffee;
+  }
+}
