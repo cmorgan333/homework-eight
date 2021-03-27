@@ -19,6 +19,7 @@
       width: 416px;
       height: 55px;
       background-image: url(../assets/images/home/occlogo1.png);
+      margin-left: 10px;
     }
 
     .links {
@@ -30,7 +31,7 @@
 
       a {
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-one;
         font-size: 30px;
         color: $white;
       }

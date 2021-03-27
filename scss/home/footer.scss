@@ -1,0 +1,25 @@
+footer {
+  max-width: 1280px;
+  min-height: 290px;
+  background-color: $coffee;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-top: 25px;
+
+  .logo {
+    width: 416px;
+    height: 55px;
+    background-image: url(../assets/images/home/occlogo1.png);
+    margin-left: 10px;
+  }
+
+  .locations {
+    width: 416px;
+    height: 160px;
+    font-family: $font-one;
+    font-size: 30px;
+    color: $white;
+    text-align: center;
+    margin-top: 15px;
+  }
+}

@@ -1,21 +1,96 @@
-.welcome {
+.welcome-content {
   max-width: 1280px;
-  min-height: 396px;
-  display: flex;
+  min-height: 200px;
   margin: 0 auto;
-  margin-top: 100px;
+  display: block;
 
-  .welcome-image {
-    width: 594px;
-    height: 396px;
-    background-image: url(../assets/images/home/baristas.jpg);
+  .welcome {
+    max-width: 1280px;
+    min-height: 396px;
+    display: flex;
+    // margin: 0 auto;
+    margin-top: 100px;
+
+    .welcome-image {
+      width: 594px;
+      height: 396px;
+      background-image: url(../assets/images/home/baristas.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .welcome-text {
+      width: 570px;
+      height: 396px;
+      margin-left: 60px;
+
+      h1 {
+        font-family: $font-one;
+        font-size: 35px;
+        margin-top: 28px;
+      }
+
+      p {
+        font-family: $font-one;
+        font-size: 20px;
+        margin-top: 21px;
+        margin-bottom: 44px;
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .cozy {
+    max-width: 1280px;
+    min-height: 596px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 126px;
+
+    .cozy-text {
+      width: 390px;
+      height: 596px;
+      //   background-color: rgb(158, 145, 135);
+      background-color: rgba(158, 145, 135, 0.41);
+      padding-left: 10px;
+      padding-right: 10px;
+
+      h1 {
+        width: 300px;
+        font-size: 35px;
+        font-family: $font-one;
+        margin-top: 25px;
+      }
+
+      p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: $font-one;
+        margin-top: 50px;
+      }
+    }
+
+    .cozy-image {
+      width: 868px;
+      height: 596px;
+      background-image: url(../assets/images/home/loungearea.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      margin-left: 22px;
+    }
+  }
+
+  .collage {
+    max-width: 1280px;
+    height: 740px;
+    margin-top: 140px;
+    background-image: url(../assets/images/home/orangecatcollage.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  .welcome-text {
-    width: 570px;
-    height: 396px;
   }
 }

@@ -37,6 +37,7 @@ p {
   width: 416px;
   height: 55px;
   background-image: url(../assets/images/home/occlogo1.png);
+  margin-left: 10px;
 }
 .hero nav .links {
   width: 660px;
@@ -47,19 +48,24 @@ p {
 }
 .hero nav .links a {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial;
   font-size: 30px;
   color: #ffff;
 }
 
-.welcome {
+.welcome-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.welcome-content .welcome {
   max-width: 1280px;
   min-height: 396px;
   display: flex;
-  margin: 0 auto;
   margin-top: 100px;
 }
-.welcome .welcome-image {
+.welcome-content .welcome .welcome-image {
   width: 594px;
   height: 396px;
   background-image: url(../assets/images/home/baristas.jpg);
@@ -67,7 +73,89 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.welcome .welcome-text {
+.welcome-content .welcome .welcome-text {
   width: 570px;
   height: 396px;
+  margin-left: 60px;
+}
+.welcome-content .welcome .welcome-text h1 {
+  font-family: arial;
+  font-size: 35px;
+  margin-top: 28px;
+}
+.welcome-content .welcome .welcome-text p {
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 21px;
+  margin-bottom: 44px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.welcome-content .cozy {
+  max-width: 1280px;
+  min-height: 596px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 126px;
+}
+.welcome-content .cozy .cozy-text {
+  width: 390px;
+  height: 596px;
+  background-color: rgba(158, 145, 135, 0.41);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.welcome-content .cozy .cozy-text h1 {
+  width: 300px;
+  font-size: 35px;
+  font-family: arial;
+  margin-top: 25px;
+}
+.welcome-content .cozy .cozy-text p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: arial;
+  margin-top: 50px;
+}
+.welcome-content .cozy .cozy-image {
+  width: 868px;
+  height: 596px;
+  background-image: url(../assets/images/home/loungearea.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 22px;
+}
+.welcome-content .collage {
+  max-width: 1280px;
+  height: 740px;
+  margin-top: 140px;
+  background-image: url(../assets/images/home/orangecatcollage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  max-width: 1280px;
+  min-height: 290px;
+  background-color: #2b2817;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-top: 25px;
+}
+footer .logo {
+  width: 416px;
+  height: 55px;
+  background-image: url(../assets/images/home/occlogo1.png);
+  margin-left: 10px;
+}
+footer .locations {
+  width: 416px;
+  height: 160px;
+  font-family: arial;
+  font-size: 30px;
+  color: #ffff;
+  text-align: center;
+  margin-top: 15px;
 }
