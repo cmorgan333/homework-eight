@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.hero {
+  max-width: 1280px;
+  height: 500px;
+  background-image: url(../assets/images/home/home-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 25px;
+  display: flex;
+}
+.hero .logo {
+  width: 416px;
+  height: 55px;
+  background-image: url(../assets/images/home/occlogo1.png);
+}
+.hero .links {
+  width: 660px;
+  height: 55px;
+}
+.hero .links a {
+  text-decoration: none;
+}
