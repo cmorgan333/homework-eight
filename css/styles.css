@@ -21,7 +21,7 @@ p {
 
 .hero {
   max-width: 1280px;
-  height: 600px;
+  min-height: 600px;
   background-image: url(../assets/images/home/home-hero.jpg);
   background-position: center;
   background-size: cover;
@@ -41,7 +41,7 @@ p {
 }
 .hero nav .links {
   width: 660px;
-  height: 45px;
+  min-height: 45px;
   display: flex;
   justify-content: space-around;
   padding-top: 15px;
@@ -75,7 +75,7 @@ p {
 }
 .welcome-content .welcome .welcome-text {
   width: 570px;
-  height: 396px;
+  min-height: 396px;
   margin-left: 60px;
 }
 .welcome-content .welcome .welcome-text h1 {
@@ -136,6 +136,34 @@ p {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1100px) {
+  .welcome-content .welcome {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .welcome-content .welcome .welcome-text {
+    padding-right: 15px;
+  }
+  .welcome-content .cozy {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .welcome-content .cozy .cozy-text {
+    margin: 0 auto;
+    height: 345px;
+  }
+  .welcome-content .cozy .cozy-image {
+    width: 390px;
+    margin: 0 auto;
+  }
+  .welcome-content .collage {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+}
 footer {
   max-width: 1280px;
   min-height: 290px;
@@ -297,4 +325,52 @@ footer .locations {
 .menu-content .menu-items span {
   position: absolute;
   right: 640px;
+}
+
+.contact-content {
+  max-width: 948px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.contact-content .contact {
+  max-width: 948px;
+  min-height: 327px;
+  background-color: rgba(158, 145, 135, 0.41);
+  margin-bottom: 37px;
+  font-family: arial;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content .contact h1 {
+  padding-top: 15px;
+  margin-left: 22px;
+  color: #2b2817;
+}
+.contact-content .contact p {
+  font-family: arial;
+  font-size: 25px;
+  color: #2b2817;
+  margin-left: 22px;
+}
+.contact-content .contact .contact-image {
+  width: 183px;
+  height: 275px;
+  margin-top: 25px;
+  margin-right: 25px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-content .contact .fs {
+  background-image: url(../assets/images/contact/orangeslice.jpg);
+}
+.contact-content .contact .ma {
+  background-image: url(../assets/images/contact/tatsandcups.jpg);
+}
+.contact-content .contact .br {
+  background-image: url(../assets/images/contact/yellowsaucersjpg.jpg);
+}
+.contact-content .fountain-square {
+  margin-top: 103px;
 }

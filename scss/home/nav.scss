@@ -1,6 +1,6 @@
 .hero {
   max-width: 1280px;
-  height: 600px;
+  min-height: 600px;
   background-image: url(../assets/images/home/home-hero.jpg);
   background-position: center;
   background-size: cover;
@@ -24,7 +24,7 @@
 
     .links {
       width: 660px;
-      height: 45px;
+      min-height: 45px;
       display: flex;
       justify-content: space-around;
       padding-top: 15px;

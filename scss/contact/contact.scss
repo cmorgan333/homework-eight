@@ -1,10 +1,56 @@
 .contact-content {
   max-width: 948px;
   min-height: 200px;
+  margin: 0 auto;
 
   .contact {
     max-width: 948px;
-    height: 327px;
+    min-height: 327px;
     background-color: rgba(158, 145, 135, 0.41);
+    margin-bottom: 37px;
+    font-family: $font-one;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      padding-top: 15px;
+      margin-left: 22px;
+      color: $coffee;
+    }
+
+    p {
+      font-family: $font-one;
+      font-size: 25px;
+      color: $coffee;
+      margin-left: 22px;
+    }
+    .contact-text {
+    }
+
+    .contact-image {
+      width: 183px;
+      height: 275px;
+      margin-top: 25px;
+      margin-right: 25px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .fs {
+      background-image: url(../assets/images/contact/orangeslice.jpg);
+    }
+
+    .ma {
+      background-image: url(../assets/images/contact/tatsandcups.jpg);
+    }
+
+    .br {
+      background-image: url(../assets/images/contact/yellowsaucersjpg.jpg);
+    }
+  }
+  .fountain-square {
+    margin-top: 103px;
   }
 }
