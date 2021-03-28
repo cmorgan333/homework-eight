@@ -242,3 +242,59 @@ footer .locations {
   font-size: 20px;
   color: #2b2817;
 }
+
+.menu-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.menu-content .menu-image {
+  max-width: 948px;
+  height: 334px;
+  background-image: url(../assets/images/products/products-menupic.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.menu-content .menu-image h1 {
+  font-family: arial;
+  font-size: 60px;
+  color: #ffff;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 260px;
+}
+.menu-content .menu {
+  max-width: 948px;
+  min-height: 200px;
+  background-color: rgba(158, 145, 135, 0.41);
+  padding-left: 15px;
+  margin: 0 auto;
+}
+.menu-content h3 {
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.menu-content .menu-items {
+  max-width: 948px;
+  min-height: 150px;
+}
+.menu-content .menu-items h4 {
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 100px;
+}
+.menu-content .menu-items p {
+  font-family: arial;
+  font-size: 16px;
+  margin-left: 100px;
+}
+.menu-content .menu-items span {
+  position: absolute;
+  right: 640px;
+}

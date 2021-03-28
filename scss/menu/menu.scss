@@ -1,0 +1,64 @@
+.menu-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+
+  .menu-image {
+    max-width: 948px;
+    height: 334px;
+    background-image: url(../assets/images/products/products-menupic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    h1 {
+      font-family: $font-one;
+      font-size: 60px;
+      color: $white;
+      text-align: right;
+      padding-right: 20px;
+      padding-top: 260px;
+    }
+  }
+
+  .menu {
+    max-width: 948px;
+    min-height: 200px;
+    background-color: rgba(158, 145, 135, 0.41);
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-family: $font-one;
+    font-size: 30px;
+    // padding-top: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .menu-items {
+    max-width: 948px;
+    min-height: 150px;
+
+    h4 {
+      font-family: $font-one;
+      font-size: 20px;
+      margin-left: 100px;
+    }
+
+    p {
+      font-family: $font-one;
+      font-size: 16px;
+      margin-left: 100px;
+    }
+
+    span {
+      position: absolute;
+      right: 640px;
+    }
+  }
+}
