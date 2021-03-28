@@ -112,6 +112,113 @@ var aboutContent = `<div class="about-content">
         </div>
       </footer>
 `;
+var menuContent = `<section class="menu-content">
+<div class="menu-image">
+  <h1>Menu</h1>
+</div>
+<div class="menu">
+  <h3>Coffee Drinks</h3>
+  <div class="menu-items">
+    <h4>Drink One</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      tenetur aliquam adipisci facere v
+    </p>
+    <span>$2.99</span>
+  </div>
+
+  <div class="menu-items">
+    <h4>Drink Two</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      tenetur aliquam adipisci facere v
+    </p>
+    <span>$2.99</span>
+  </div>
+  <div class="menu-items">
+    <h4>Drink Three</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      tenetur aliquam adipisci facere v
+    </p>
+    <span>$2.99</span>
+  </div>
+  <div class="menu-items">
+    <h4>Drink Four</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      tenetur aliquam adipisci facere v
+    </p>
+    <span>$2.99</span>
+  </div>
+  <div class="menu-items">
+    <h4>Drink Five</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      tenetur aliquam adipisci facere v
+    </p>
+    <span>$2.99</span>
+  </div>
+  <div class="menu-items">
+    <h4>Drink Six</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      tenetur aliquam adipisci facere v
+    </p>
+    <span>$2.99</span>
+  </div>
+</div>
+</section>
+<!-- ==========FOOTER============ -->
+<footer>
+<div class="logo"></div>
+<div class="locations">
+  <p>Fountain Square</p>
+  <p>Mass Ave</p>
+  <p>Broad Ripple</p>
+</div>
+</footer>`;
+var contactContent = ` <section class="contact-content">
+<div class="contact fountain-square">
+  <div class="contact-text">
+    <h1>Fountain Square</h1>
+    <p>1234 Shelby Street</p>
+    <p>Indianapolis, IN 46203</p>
+    <p>Call us: 317-555-5555</p>
+    <p>Email: occfountainsquare@gmail.com</p>
+  </div>
+  <div class="contact-image fs"></div>
+</div>
+<div class="contact">
+  <div class="contact-text">
+    <h1>Mass Ave</h1>
+    <p>1234 Massachusetts Ave</p>
+    <p>Indianapolis, IN 46203</p>
+    <p>Call us: 317-555-5555</p>
+    <p>Email: occmassave@gmail.com</p>
+  </div>
+  <div class="contact-image ma"></div>
+</div>
+<div class="contact">
+  <div class="contact-text">
+    <h1>Broad Ripple</h1>
+    <p>1234 Broad Ripple Ave</p>
+    <p>Indianapolis, IN 46203</p>
+    <p>Call us: 317-555-5555</p>
+    <p>Email: occbroadripple@gmail.com</p>
+  </div>
+  <div class="contact-image br"></div>
+</div>
+</section>
+<!-- ===========FOOTER============= -->
+<footer>
+<div class="logo"></div>
+<div class="locations">
+  <p>Fountain Square</p>
+  <p>Mass Ave</p>
+  <p>Broad Ripple</p>
+</div>
+</footer>`;
 
 // this is an example of a named function
 
