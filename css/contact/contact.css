@@ -1,0 +1,9 @@
+.contact-content {
+  max-width: 948px;
+  min-height: 200px;
+}
+.contact-content .contact {
+  max-width: 948px;
+  height: 327px;
+  background-color: rgba(158, 145, 135, 0.41);
+}
